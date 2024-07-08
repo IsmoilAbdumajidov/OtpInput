@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .main-container {
+      @apply px-2 md:px-10 lg:px-10
+  }
+
+  label {
+      @apply flex flex-col
+  }
+
+  input, select {
+      @apply bg-transparent border p-2  w-full  rounded-md   focus:outline-blue-500 outline-none px-2 text-base placeholder:text-base placeholder:text-white font-medium duration-300 border-cyan-500  text-white flex-1
+      
+  }
+}
